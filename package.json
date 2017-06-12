@@ -1,0 +1,37 @@
+{
+  "name": "ci-gateway",
+  "version": "0.0.1",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "Antonis Mygiakis <a.migiakis@clmsuk.com>",
+  "license": "MIT",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "bluebird": "^3.4.6",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "helmet": "^2.2.0",
+    "mario-connect": "^0.3.5",
+    "mongodb": "^2.2.10",
+    "morgan": "^1.7.0",
+    "nconf": "^0.8.4",
+    "passport": "^0.3.2",
+    "passport-http": "^0.3.0",
+    "request": "^2.75.0",
+    "seneca": "^2.1.0",
+    "service-metadata-provider": "^0.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.2",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "mocha": "^2.5.3"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "description": "Microservice which translates CI metadata (participants, services, agreements, etc.) to Mario building instructions..."
+}
